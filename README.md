@@ -1,6 +1,6 @@
 # Introduction
 
-![](https://wiki.aochain.io/assets/uploads/Polkadot-Releases-Major-Milestone-For-Its-Substrate-Blockchain-Framework.jpg)
+![AOCHAIN](https://wiki.aochain.io/assets/uploads/Polkadot-Releases-Major-Milestone-For-Its-Substrate-Blockchain-Framework.jpg)
 
 ##### AoChain is an active supporter of the Polkadot ecology, committed to enabling everyone to use Web3.0 blockchain technology efficiently and at low cost, and enjoy the convenient services and ecological dividends brought by the Web3.0 information technology era. Using the Aochain blockchain application, you can build DEFI smart contract products, DGAME smart contract game products, Erc20 standard Token issuance, Dapp development and NFT asset release in one-stop.
 

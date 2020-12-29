@@ -97,7 +97,6 @@ sudo apt update
 # May prompt for location information
 sudo apt install -y cmake pkg-config libssl-dev git build-essential clang libclang-dev curl
 
-Copy
 ```
 
 ### Arch Linux
@@ -142,7 +141,6 @@ If you are trying to set up a Windows computer to build Substrate, do the follow
    rustup update stable
    rustup target add wasm32-unknown-unknown --toolchain nightly
    
-   Copy
    ```
 
 4. Install LLVM: https://releases.llvm.org/download.html
@@ -157,7 +155,6 @@ If you are trying to set up a Windows computer to build Substrate, do the follow
    .\bootstrap-vcpkg.bat
    .\vcpkg.exe install openssl:x64-windows-static
    
-   Copy
    ```
 
 6. Add OpenSSL to your System Variables using PowerShell:
@@ -168,7 +165,6 @@ If you are trying to set up a Windows computer to build Substrate, do the follow
    [System.Environment]::SetEnvironmentVariable('OPENSSL_DIR', $env:OPENSSL_DIR, [System.EnvironmentVariableTarget]::User)
    [System.Environment]::SetEnvironmentVariable('OPENSSL_STATIC', $env:OPENSSL_STATIC, [System.EnvironmentVariableTarget]::User)
    
-   Copy
    ```
 
 7. Finally, install `cmake`: https://cmake.org/download/
@@ -209,7 +205,6 @@ Now, configure the nightly version to work with the Wasm compilation target:
 ```bash
 rustup target add wasm32-unknown-unknown --toolchain nightly-<yyyy-MM-dd>
 
-Copy
 ```
 
 #### Specifying Nightly Version

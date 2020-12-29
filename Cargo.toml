@@ -1,0 +1,23 @@
+[patch.crates-io]
+# patch for substrate runtime module
+
+[workspace]
+members = [
+    "inspect",
+    "primitives",
+
+    "bin/rpc-client",
+
+    "bin/colombo-node",
+    "cli/colombo",
+    "executor/colombo",
+    "runtime/colombo",
+
+    "bin/gama-node",
+    "cli/gama",
+    "executor/gama",
+    "runtime/gama",
+]
+
+[profile.release]
+panic = "unwind"

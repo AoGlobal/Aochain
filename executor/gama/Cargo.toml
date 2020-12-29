@@ -1,0 +1,26 @@
+[package]
+name = "gama-executor"
+version = "2.0.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+description = "Substrate node implementation in Rust."
+edition = "2018"
+license = "Apache-2.0"
+homepage = "https://substrate.dev"
+repository = "https://github.com/paritytech/substrate/"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[dependencies]
+trie-root = "0.16.0"
+sc-executor = { version = "0.8.0" }
+frame-benchmarking = { version = "2.0.0" }
+node-runtime = { package = "gama-runtime", version = "2.0.0", path = "../../runtime/gama" }
+
+[features]
+wasmtime = [
+	"sc-executor/wasmtime",
+]
+wasmi-errno = [
+	"sc-executor/wasmi-errno",
+]

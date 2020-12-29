@@ -1,0 +1,12 @@
+[package]
+name = "gama"
+version = "0.1.0"
+authors = ["Who"]
+edition = "2018"
+
+[dependencies]
+cli = { package = "gama-cli", path = "../../cli/gama" }
+
+
+[features]
+runtime-benchmarks = ["cli/runtime-benchmarks"]

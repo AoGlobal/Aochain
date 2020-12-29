@@ -111,7 +111,7 @@ export OPENSSL_INCLUDE_DIR="/usr/include/openssl-1.0"
 
 ## Windows
 
-If you are trying to set up a Windows computer to build Substrate, do the following:
+If you are trying to set up a Windows computer to build Aochain, do the following:
 
 1. Download and install "Build Tools for Visual Studio:"
 
@@ -192,7 +192,7 @@ Aochain uses [WebAssembly](https://webassembly.org/) (Wasm) to produce portable 
 
 #### Rust Nightly Toolchain
 
-Developers building with Substrate should use a specific Rust nightly version that is known to be compatible with the version of Substrate they are using; this version will vary from project to project and different projects may use different mechanisms to communicate this version to developers. For instance, the Polkadot client specifies this information in its [release notes](https://github.com/paritytech/polkadot/releases). The Substrate Node Template uses an [init script](https://github.com/substrate-developer-hub/substrate-node-template/blob/master/scripts/init.sh) and [Makefile](https://github.com/substrate-developer-hub/substrate-node-template/blob/master/Makefile) to specify the Rust nightly version and encapsulate the following steps. Use Rustup to install the correct nightly:
+Developers building with Aochain should use a specific Rust nightly version that is known to be compatible with the version of Substrate they are using; this version will vary from project to project and different projects may use different mechanisms to communicate this version to developers. For instance, the Polkadot client specifies this information in its [release notes](https://github.com/paritytech/polkadot/releases). The Substrate Node Template uses an [init script](https://github.com/substrate-developer-hub/substrate-node-template/blob/master/scripts/init.sh) and [Makefile](https://github.com/substrate-developer-hub/substrate-node-template/blob/master/Makefile) to specify the Rust nightly version and encapsulate the following steps. Use Rustup to install the correct nightly:
 
 ```bash
 rustup install nightly-<yyyy-MM-dd>
@@ -262,3 +262,5 @@ Run the following commands to start your node:
 ```bash
 ./target/release/gama --base-path <YourDataDir> --name <YourNodeName>
 ```
+
+> more tutorials refer to [substrate](https://substrate.dev/en/tutorials)

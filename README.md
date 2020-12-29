@@ -17,7 +17,7 @@
 
 --
 
-## Design Concept
+# Design Concept
 
 
 #### True interoperability：
@@ -64,7 +64,7 @@ New parachains are added by bonding tokens. Outdated or non-useful parachains ar
 
 
 
-## Road Map
+# Road Map
 
 * For more details, go to 
 

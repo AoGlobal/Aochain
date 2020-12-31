@@ -2,7 +2,6 @@
 * [Design Concept](#Design-Concept)
 * [Road Map](#Road-Map)
 
-image:https://img.shields.io/badge/License-GPLv3-blue.svg[License: GPL v3,link=https://www.gnu.org/licenses/gpl-3.0]
 
 
 # Introduction
